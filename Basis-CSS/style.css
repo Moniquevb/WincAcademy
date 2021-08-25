@@ -1,0 +1,25 @@
+body { 
+    background-image: url('achtergrond.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #1038b0;
+}
+
+h2 {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #008c9e;
+}
+
+.black-border {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#liliac-background {
+    background-color: #dec7f1;
+    border: 5px solid white;
+}

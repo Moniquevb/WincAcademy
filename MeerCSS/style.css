@@ -1,0 +1,61 @@
+body { 
+    background-image: url('achtergrond.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav li{
+    display: inline;
+}
+
+.nav-bar a{ 
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #1038b0;
+    padding: 20px 20px 20px 70px;
+}
+
+h2 {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #008c9e;
+    padding: 0px 10px 5px 20px;
+    margin-bottom: 0px;
+}
+
+p, a, ul {
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.home-content {
+    margin: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#liliac-background {
+}
+
+.border-header, .border-main {
+    border: 5px solid white;
+    margin: 40px;
+}
+
+.center-content {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+img.center-content {
+    display: block;
+}
