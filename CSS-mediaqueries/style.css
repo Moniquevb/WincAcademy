@@ -1,0 +1,156 @@
+body { 
+    background-color: #d7f7f5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav li{
+    display: inline;
+}
+
+.nav-bar a{ 
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #1038b0;
+    padding: 20px 20px 20px 70px;
+}
+
+h2 {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: #008c9e;
+    padding: 0px 10px 5px 20px;
+    margin-bottom: 0px;
+}
+
+p, a, ul {
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.home-content {
+    margin: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.projects-list {
+    list-style-position: inside;
+}
+
+.border-header, .border-main {
+    border: 5px solid white;
+    margin: 40px;
+}
+
+.center-content {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+img.center-content {
+    display: block;
+}
+
+.painting-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 20px 0 20px;
+}
+
+.paintings {
+    width: 30%;
+}
+
+.paintings img {
+    width: 100%;
+}
+@media (max-width: 600px) {
+    .home-content {
+        margin: 20px;
+    }
+
+    .border-header {
+        padding: 20px;
+    }
+
+    #home {
+        padding: 0 0 0 20px;
+    }
+
+    .border-header, .border-main {
+        margin: 0px;
+    }
+
+    .painting-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 20px 0px 0px 0px;
+        padding: 0px;
+       
+    }
+
+    .paintings {
+        width: 100%;
+    }
+
+    .paintings img {
+        width: 100%;
+        
+    }
+}
+
+    @media (max-width: 600px) {
+        .home-content {
+            margin: 0px;
+        }
+    
+        .border-header {
+            padding: 0px;
+        }
+    
+        #home {
+            padding: 0px;
+        }
+    
+        .border-header, .border-main {
+            margin: 0px;
+        }
+    
+        .painting-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 100%;
+            margin-top: 20px 0px 0px 0px;
+            padding: 0px;
+           
+        }
+    
+        .paintings {
+            width: 100%;
+        }
+    
+        .paintings img {
+            width: 100%;
+            padding: 0 0 10px 0;
+        }
+
+        h2, p, ul {
+            padding: 0 5px 0 5px;
+        }
+
+}
