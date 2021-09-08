@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>survey page</title>
+        <link rel="stylesheet" href="survey.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1 id="title">We willen je graag wat beter leren kennen</h1>
+        <p id="description">Bedankt voor het invullen van deze korte vragenlijst!</p>
+        <div class=form-container>
+            <form id="survey-form">
+                <div id=personal-details>
+                    <label class="question" id="name-label" for="name">Name:</label>
+                    <input class="form-control" id="name" type="text" required placeholder="name">
+                    <label class="question" id="email-label" for="email">Email:</label>
+                    <input class="form-control" type="email" id="email" required placeholder="myemail@email.com">
+                    <label class="question" for="phone">Enter your phone number:</label>
+                    <input class="form-control" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    <label class="question" id="number-label" for="number">Age:</label>
+                    <input class="form-control" type="number" id="number" min="0" max="100" placeholder="e.g. 27">
+                    <label class="question" for="birthday">Birthday:</label>
+                    <input class="form-control" type="date" id="birthday" name="birthday">
+                </div>
+
+                <div class="input-container" id="fave-feature">
+                    <p class="question">What is your favorite feature?</p>
+                    <select class="form-control" id="dropdown">
+                        <option value="">feature 1</option>
+                        <option value="">feature 2</option>
+                        <option value="">feature 3</option>
+                        <option value="">feature 4</option>
+                    </select>
+                </div>
+                <div class="input-container" id=radiobuttons>
+                    <p class="question">Gender:</p>
+                    <div>
+                        <label for="female"><input type="radio" id="female" name="radio-group" value="female">
+                            Female</label><br>
+                        <label for="male"><input type="radio" id="male" name="radio-group" value="male">
+                            Male</label><br>
+                        <label for="other"><input type="radio" id="other" name="radio-group" value="other">
+                            Other</label>
+                    </div>
+                    <div class="input-container" id=checkbox-container>
+                        <p class="question">Favorite cuisine:</p>
+                        <div id="cuisine">
+                            <label class="input-checkbox" for="answer1"><input type="checkbox" id="answer1"
+                                    name="answer1" value="answer1">Frans</label>
+                            <label class="input-checkbox" for="answer2"><input type="checkbox" id="answer2"
+                                    class=".input-checkbox" name="answer2" value="answer2">Italiaans</label>
+                            <label class="input-checkbox" for="answer3"><input type="checkbox" id="answer3"
+                                    name="answer3" value="answer3">Spaans</label>
+                            <label class="input-checkbox" for="answer4"><input type="checkbox" id="answer4"
+                                    name="answer4" value="answer4">Arabisch</label>
+                        </div>
+                    </div>
+                    <div class="input-container" id="comments">
+                        <label class="question" for="comments-label">Biografie:</label>
+                        <textarea id="comments-area" name="comments-area" rows="4" cols="50">
+  </textarea>
+                    </div>
+                    <div class="input-container" id="color-picker">
+                        <p class="question">Favoriete kleur van schort:</p>
+                        <input type="color" id="head" name="head" value="#e66465">
+                        <label for="head">Kies je kleur</label>
+                    </div>
+                    <div class="input-container" id="recept-container">
+                        <label class="question" for="recept">Upload je laatste recept:</label>
+                        <input type="file" id="recept" name="recept" accept="image/png, image/jpeg">
+                    </div>
+                    <div class=button-holder>
+                        <input id="reset" type="reset" value="Reset">
+                        <input id="submit" type="submit" value="Submit">
+                        
+                    </div>
+                    
+            </form>
+        </div>
+    </body>
+
+</html>
