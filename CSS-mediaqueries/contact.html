@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>contact page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1 id="title">Contact form</h1>
+    <div class=form-container>
+      <form id="survey-form">
+        <div id=personal-details>
+          <div class="input-container">
+            <label class="question" id="name-label" for="name">Name:</label>
+            <input class="form-control" id="name" type="text" required placeholder="name">
+          </div>
+          <div class="input-container">
+            <label class="question" id="email-label" for="email">Email:</label>
+            <input class="form-control" type="email" id="email" required placeholder="myemail@email.com">
+          </div>
+          <div id="comments-box" class="input-container">
+            <label class="question" for="comments-label">Do you have any other comments, questions or concerns?</label>
+            <textarea class="form-control" id="comments-area" name="comments-area" rows="4" cols="50">
+    </textarea>
+          </div>
+        </div>
+        <div id="button-box">
+          <input id="submit" type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </body>
+
+</html>
