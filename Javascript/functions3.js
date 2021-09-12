@@ -9,32 +9,32 @@ const checkNumber = function (number) {
 const result1 = checkNumber(101);
 console.log(result1);
 
-// const bouncerBot = function (maxNumber, currentNumber, age) {
-//     if (currentNumber > maxNumber) {
-//         return "it's too busy now, come back later";
-//     } else {
-//         return "come in";
-//     }
-//     if (age < 18) {
-//         return "this is a club for adults";
-//     }
-// }
-
-// const result2 = bouncerBot(100, 55, 17);
-// console.log(result2);
-
 const bouncerBot = function (maxNumber, currentNumber, age) {
-    if (currentNumber > maxNumber || age <18) {
-        return true;
+    if (currentNumber > maxNumber) {
+        return "it's too busy now, come back later";
+    } else {
+        return "come in";
+    }
+    if (age < 18) {
+        return "this is a club for adults";
     }
 }
 
-const result3 = bouncerBot(100, 55, 17);
-if (result3 == true) {
-    console.log("this"); 
-} else {
-    console.log("that")
-}
+const result2 = bouncerBot(100, 55, 17);
+console.log(result2);
+
+// const bouncerBot = function (maxNumber, currentNumber, age) {
+//     if (currentNumber > maxNumber || age <18) {
+//         return true;
+//     }
+// }
+
+// const result3 = bouncerBot(100, 55, 17);
+// if (result3 == true) {
+//     console.log("this"); 
+// } else {
+//     console.log("that")
+// }
 
 // To make these decisions we'll give Brenda the following arguments:
 
