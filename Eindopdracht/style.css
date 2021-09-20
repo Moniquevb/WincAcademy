@@ -1,0 +1,66 @@
+#hamburger-menu {
+    width: 50px;
+}
+
+.menu {
+    list-style: none;
+    width: 100px;
+    padding: 0;
+    visibility: hidden;
+}
+
+.menu2 {
+    list-style: none;
+    width: 100px;
+    padding: 0;
+    visibility: visible;
+}
+
+.bg-color-white {
+    background-color: white;
+}
+
+.bg-color-yellow {
+    background-color: yellow;
+}
+
+.bg-color-green {
+    background-color: rgb(45, 180, 101);
+}
+
+.bg-color-red {
+    background-color: #ff0033ca;
+}
+
+.bg-color-blue {
+    background-color: lightblue;
+}
+
+.bg-color-purple {
+    background-color: #e000ff;
+}
+
+#bg-color-yellow {
+    background-color: yellow;
+    padding: 10px;
+}
+
+#bg-color-green {
+    background-color: rgb(45, 180, 101);
+    padding: 10px;
+}
+
+#bg-color-red {
+    background-color: #ff0033ca;
+    padding: 10px;
+}
+
+#bg-color-blue {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#bg-color-purple {
+    background-color: #e000ff;
+    padding: 10px;
+} 
