@@ -22,45 +22,27 @@
 
 .bg-color-yellow {
     background-color: yellow;
+    padding: 10px;
 }
 
 .bg-color-green {
     background-color: rgb(45, 180, 101);
+    padding: 10px;
 }
 
 .bg-color-red {
     background-color: #ff0033ca;
+    padding: 10px;
 }
 
 .bg-color-blue {
     background-color: lightblue;
+    padding: 10px;
 }
 
 .bg-color-purple {
     background-color: #e000ff;
-}
-
-#bg-color-yellow {
-    background-color: yellow;
     padding: 10px;
 }
 
-#bg-color-green {
-    background-color: rgb(45, 180, 101);
-    padding: 10px;
-}
 
-#bg-color-red {
-    background-color: #ff0033ca;
-    padding: 10px;
-}
-
-#bg-color-blue {
-    background-color: lightblue;
-    padding: 10px;
-}
-
-#bg-color-purple {
-    background-color: #e000ff;
-    padding: 10px;
-} 
